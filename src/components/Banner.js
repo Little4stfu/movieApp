@@ -1,10 +1,10 @@
-import { Button, Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Row, Col } from 'react-bootstrap';
+
 
 export default function Banner({data}) {
 
     console.log(data);
-    const {title, content, destination} = data;
+    const {title, content} = data;
 
     return (
         <Row>

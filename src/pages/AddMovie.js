@@ -11,7 +11,6 @@ import {
   MDBCardImage,
   MDBInput,
   MDBIcon,
-  MDBCheckbox
 } from 'mdb-react-ui-kit';
 
 const AddMoviePage = () => {
